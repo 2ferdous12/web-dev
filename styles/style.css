@@ -1,9 +1,8 @@
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 200px;
-
+    
 
 }
 
@@ -17,9 +16,7 @@ body{
 
 .web-title{
     color: var(--Dark-01, #181818);
-padding: 15px 35px;
 font-size: 45px;
-
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -312,21 +309,58 @@ border-style: solid
         .banner{
             flex-direction: column;
         }
+nav ul{
+    flex-direction: column;
+}
+        .profile-picture{
+            width: 100%;
+        }
 
         .about-info{
             flex-direction: column;
         }
 
+        .section-title{
+            padding: 10px;
+        }
+
+        .section-description{
+            
+        }
+
         .skills-container{
             flex-direction: column;
+           
+        }
+
+        #what-i-do-description{
+            padding: 20px;
         }
 
         .resume-container{
             flex-direction: column;
+            padding: 20px;
         }
 
         footer{
             flex-direction: column;
+            padding: 10px auto;
+        }
+
+        .footer-column{
+            width: 100%;
+        }
+
+        .web-title{
+            padding: 0px 0px 0px 50px;
+        }
+           
+.button-cv{
+    margin-bottom: 10px;
+}
+
+        header{
+flex-direction: column;
         }
     }
 
@@ -338,16 +372,17 @@ border-style: solid
         .about-info{
             flex-direction: column;
         }
-
-        .skills-container{
+     .skills-container{
             flex-direction: column;
+            
         }
 
         .resume-container{
             flex-direction: column;
         }
 
-        footer{
-            flex-direction: column;
+        .footer-column{
+            padding: 30px;
         }
+
     }
